@@ -6,7 +6,7 @@
 <!----------------MARKUP----------------------->
 <!------------------------------------------->
 
-<section id="testimonials" class="section">
+<section id="tech" class="section">
   <div class="container text-center">
     <h2 class="title">{HEADING}</h2>
     <div class="row section-body">
@@ -26,7 +26,6 @@
 <style>
   .service-img {
     width: 200px;
-    height: 200px;
     margin-top: 20px;
   }
 

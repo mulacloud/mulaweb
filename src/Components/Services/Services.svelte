@@ -18,9 +18,6 @@
         </div>
       {/each}
     </div>
-    <buttom class="btn btn-primary round-border main-bgcolor">
-      {ALL_SERVICES}
-    </buttom>
   </div>
 </section>
 <!------------------------------------------->

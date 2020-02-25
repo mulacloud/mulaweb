@@ -1,77 +1,91 @@
 const HEADER = "Mula Cloud Project";
+const MOTTO = "Kami membantu mengembangkan aplikasi bisnis dengan menggunakan teknologi opensource yang telah terpercaya.";
 
 const NAVBAR_DATA = [
   { id: 1, url: "/", label: "Beranda" },
   { id: 2, url: "#services", label: "Layanan" },
   { id: 3, url: "#about-us", label: "Tentang Kami" },
-  { id: 4, url: "#testimonials", label: "Teknologi" },
-  { id: 5, url: "#footer", label: "Kontak" }
+  { id: 4, url: "#tech", label: "Teknologi" },
 ];
 const BANNER_DATA = {
-  HEADING: "Bersama membangun hari",
-  DECRIPTION:
-    "Kami membantu mengembangkan aplikasi busnis untuk hari-hari anda yang lebih baik",
+  HEADING: "Bersama membangun bisnis anda",
+  DECRIPTION: MOTTO,
 };
 const SERVICE_DATA = {
   HEADING: "Layanan Kami",
   ALL_SERVICES: "All Services",
   SERVICE_LIST: [
     {
-      LABEL: "Search Engine Optimisation",
+      LABEL: "Pelatihan Developer Muda",
       DESCRIPTION:
-        "To customise the content, technical functionality and scope of your website so that your pages show for a specific set of keyword at the top of a search engine list. In the end, the goal is to attract traffic to your website when they are searching for goods, services or business-related information.",
+        "Kami dapat membantu perusahaan yang sedang mengembangkan aplikasi bisnis mereka atau ERP dengan cara  melakukan pelatihan beberapa teknologi yang kami kuasai seperti : Odoo, Flectra, Django atau Python",
       URL: "images/service1.png"
     },
     {
-      LABEL: "Content Marketing Strategy",
+      LABEL: "Implementasi & Perawatan ERP",
       DESCRIPTION:
-        "It is tough but well worth the effort to create clever material that is not promotional in nature, but rather educates and inspires. It lets them see you as a reliable source of information by delivering content that is meaningful to your audience.",
+        "Bagi perusahaan yang belum mengimplementasikan sistem ERP maka kami dapat membantu anda untuk mengimplementasikan salah satu dari sistem ERP yang kami kuasai seperti : Odoo atau Flectra",
       URL: "images/service2.png"
     },
     {
-      LABEL: "Develop Social Media Strategy",
+      LABEL: "Pengembangan Aplikasi Bisnis",
       DESCRIPTION:
-        "Many People rely on social networks to discover, research, and educate themselves about a brand before engaging with that organization. The more your audience wants to engage with your content, the more likely it is that they will want to share it.",
+        "Anda memiliki spesifikasi aplikasi bisnis yang rumit, maka kami dapat membantu anda membangunya bersama, dengan beberapa teknologi yang kami kuasai seperti: Django, Odoo atau Flectra.",
       URL: "images/service3.png"
     }
   ]
 };
 
 const ABOUT_DATA = {
-  HEADING: "Why choose us?",
-  TITLE: "Why we're different",
+  HEADING: "Mengapa Memilih Kami ?",
+  TITLE: "Apa yang membuat kami berbeda: ",
   IMAGE_URL: "images/network.png",
   WHY_CHOOSE_US_LIST: [
-    "We provides Cost-Effective Digital Marketing than Others.",
-    "High customer statisfaction and experience.",
-    "Marketing efficiency and quick time to value.",
-    "Clear & transparent fee structure.",
-    "We provides Marketing automation which is an integral platform that ties all of your digital marketing together.",
-    "A strong desire to establish long lasting business partnerships.",
-    "Provide digital marketing to mobile consumer.",
-    "We provides wide range to services in reasonable prices"
+    "Menyediakan solusi layanan dengan harga yang terjangkau",
+    "Transparan tentang harga sebuah solusi",
+    "Telah berpengalaman dalam bidang ini lebih dari 5 tahun",
+    "Kami berpartner secara kekeluargaan sehingga komunikasi menjadi lebih mudah",
+    "Berkomitmen pada proses",
   ]
 };
 const TECH_DATA = {
   HEADING: "Teknologi yang kami gunakan",
   TECH_LIST: [
     {
-      LABEL: "Search Engine Optimisation",
+      LABEL: "Odoo",
       DESCRIPTION:
-        "To customise the content, technical functionality and scope of your website so that your pages show for a specific set of keyword at the top of a search engine list. In the end, the goal is to attract traffic to your website when they are searching for goods, services or business-related information.",
-      URL: "images/service1.png"
+        "Odoo adalah platform pengembangan aplikasi bisnis yang sangat handal dan telah teruji diberbagai jenis bisnis. Odoo lebih terkenal sebagai platform ERP, namun sebenarnya Odoo menyimpan potensi lebih dari itu",
+      URL: "images/tech_odoo.png"
     },
     {
-      LABEL: "Content Marketing Strategy",
+      LABEL: "Flectra",
       DESCRIPTION:
-        "It is tough but well worth the effort to create clever material that is not promotional in nature, but rather educates and inspires. It lets them see you as a reliable source of information by delivering content that is meaningful to your audience.",
-      URL: "images/service2.png"
+        "Flectra merupakan platform ERP yang telah banyak digunakan di dunia. Dengan desain nya yang modular, implementasi ERP menjadi sangat mudah dan menyenangkan",
+      URL: "images/tech_flectra.png"
     },
     {
-      LABEL: "Develop Social Media Strategy",
+      LABEL: "Python",
       DESCRIPTION:
-        "Many People rely on social networks to discover, research, and educate themselves about a brand before engaging with that organization. The more your audience wants to engage with your content, the more likely it is that they will want to share it.",
-      URL: "images/service3.png"
+        "Python memiliki fitur-fitur segudang yang dengannya membangun aplikasi bisnis baik web-based maupun desktop-based menjadi mudah dan menyenangkan.",
+      URL: "images/tech_python.png"
+    },
+    {
+      LABEL: "FreeBSD",
+      DESCRIPTION:
+        "FreeBSD adalah salah satu dari sistem operasi opensource yang mampu memberikan performa dan stabilitas luar biasa.",
+      URL: "images/tech_freebsd.png"
+    },
+    {
+      LABEL: "Postgresql",
+      DESCRIPTION:
+        "Performa dan fitur Postgresql sebagai salah satu basis data opensource tentu sudah tidak diragukan lagi. Kami memilih Postgresql sebagai basis data pilihan kami karena performa dan ketangguhannya serta didukung dengan fitur yang komplit",
+      URL: "images/tech_postgresql.png"
+    },
+    {
+      LABEL: "Django",
+      DESCRIPTION:
+        "Kami sudah bekerja menggunakan django sejak 2009 dan Django telah terbukti memiliki fitur yang sangat membantu kami dalam membangun aplikasi bisnis. Dukungan komunitas yang luas pun memudahkan kami untuk menyelesaikan masalah-masalah terkait pengembangan aplikasi",
+      URL: "images/tech_django.png"
     }
   ]
 };
@@ -89,13 +103,12 @@ const SOCIAL_DATA = {
 };
 
 const FOOTER_DATA = {
-  DESCRIPTION:
-    "We are typically focused on result-based maketing in the digital world. Also, we evaluate your brand’s needs and develop a powerful strategy that maximizes profits.",
+  DESCRIPTION: MOTTO,
   CONTACT_DETAILS: {
-    HEADING: "Contact us",
-    ADDRESS: "La trobe street docklands, Melbourne",
-    MOBILE: "+1 61234567890",
-    EMAIL: "nixalar@gmail.com"
+    HEADING: "Kontak kami",
+    ADDRESS: "Jl Cijerokaso 1 no 44, Sarijadi, Sukasari Bandung",
+    MOBILE: '+62 812 2473 1715',
+    EMAIL: "mulacloud@protonmail.com"
   },
   SUBSCRIBE_NEWSLETTER: "Subscribe newsletter",
   SUBSCRIBE: "Subscribe"
