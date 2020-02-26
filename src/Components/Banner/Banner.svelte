@@ -8,12 +8,12 @@
 <section class="main-bgcolor light-color" id="banner">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-8">
           <h2 style="font-size: 2.5rem;">{HEADING}</h2>
         <p>{DECRIPTION}</p>
       </div>
-      <div class="col-md-6">
-        <img src="images/home.png" alt="" class="img-fluid" />
+      <div class="col-md-4">
+          <img style="width: 200px;" src="images/home.png" alt="" class="img-fluid" />
       </div>
     </div>
   </div>
