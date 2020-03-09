@@ -6,6 +6,7 @@ const NAVBAR_DATA = [
   { id: 2, url: "#services", label: "Layanan" },
   { id: 3, url: "#about-us", label: "Tentang Kami" },
   { id: 4, url: "#tech", label: "Teknologi" },
+  { id: 5, url: "/blog/", label: "Blog" },
 ];
 const BANNER_DATA = {
   HEADING: "Bersama membangun bisnis anda",

@@ -17,7 +17,7 @@
       </div>
     </div>
   </div>
-  <img src="images/wave1.png" alt="" class="wave-img" />
+  <img src="images/weave.svg" alt="" class="wave-img" />
 </section>
 <!------------------------------------------->
 <!----------------STYLE----------------------->
